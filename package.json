@@ -1,0 +1,73 @@
+{
+  "name": "user-management",
+  "version": "1.0.0",
+  "description": "A simple user registration, login and dashboard",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production --config webpack-prod.config.js",
+    "start": "webpack-dev-server --open",
+    "dev": "npm run build && NODE_ENV=local nodemon server/app.js",
+    "watch": "NODE_ENV=local nodemon server/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://arunravichandran-11@github.com/arunravichandran-11/user-management.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "css-loader": "^4.3.0",
+    "fs": "0.0.1-security",
+    "history": "^4.10.1",
+    "r": "0.0.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.1.3",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.4",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "antd": "^4.6.4",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^6.0.0",
+    "copy-webpack-plugin": "^6.1.0",
+    "cors": "^2.8.5",
+    "html-webpack-plugin": "^3.2.0",
+    "image-webpack-loader": "^7.0.1",
+    "imagemin-webpack-plugin": "^2.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "mini-css-extract-plugin": "^0.11.2",
+    "mongoose": "^5.10.5",
+    "nodemon": "^2.0.4",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "path": "^0.12.7",
+    "sass": "^1.26.10",
+    "terser-webpack-plugin": "^4.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "keywords": [
+    "React",
+    "expressjs",
+    "webpack"
+  ],
+  "author": "AB",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arunravichandran-11/user-management/issues"
+  },
+  "homepage": "https://github.com/arunravichandran-11/user-management#readme"
+}

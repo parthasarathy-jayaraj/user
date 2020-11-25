@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  background-image: url('./images.jpeg');
+}
+
+body {
+  #app {
+    height: 90%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 5%;
+  }
+
+  * {
+    span,
+    th,
+    td,
+    label,
+    div,
+    p,
+    a li {
+      font-size: 18px !important;
+    }
+
+    h1 {
+      font-size: 24px !important;
+    }
+  }
+}

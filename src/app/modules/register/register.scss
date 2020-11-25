@@ -1,0 +1,28 @@
+.input-fields {
+  margin: 20px 0px;
+}
+
+.gender-section {
+  display: flex;
+  flex-direction: row;
+}
+
+form {
+  text-align: center;
+  & > div {
+    width: calc(50% - 16px);
+    text-align: left;
+    margin: 8px !important;
+  }
+
+  .gender-country {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    & > div {
+      width: 45%;
+      margin: 20px;
+    }
+  }
+}
